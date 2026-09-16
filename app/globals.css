@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #fafaf8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #fafaf8;
+  color: #111111;
+  font-family: var(--font-ibm-plex-sans), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.main-content {
+  padding-bottom: 180px;
+}
+
+.answer-top-anchor {
+  scroll-margin-top: 96px;
+}
+
+button,
+input {
+  font: inherit;
+}
